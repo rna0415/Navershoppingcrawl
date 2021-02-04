@@ -62,7 +62,7 @@ for typen in cosmetic:
         pass
     
    #########crawl the title of product ######################################################################################
-    for pagingindex in range(1,100):
+    for pagingindex in range(1,100): #원하는 페이지 범위 (100개의 페이지 크롤)
 
         print(f'now is {pagingindex}')
         if pagingindex == 1:
